@@ -72,7 +72,7 @@ public class DetalleFacturaCController {
     @RequestMapping(value = "formDetalleFactura", method = RequestMethod.GET)
     public ModelAndView irFormulario(@ModelAttribute("modeloDetalleFactura") DetalleFactura entidad, BindingResult result) {
         Map<String, Object> modelo = new HashMap<String, Object>();
-        modelo.put("listaTemporada", "Holasssssssssss");
+        modelo.put("listaTemporada", "Hi");
         modelo.put("listaTemporadaX", service.listarEntidad());
         modelo.put("listaTemporada2", "");
         modelo.put("listaTemporada3", "");
@@ -84,7 +84,7 @@ public class DetalleFacturaCController {
     public ModelAndView guardarDetalleFacturaXX(@ModelAttribute DetalleFactura entidad,
             BindingResult result) {
 
-        System.out.println("josue " + entidad.toString());
+        System.out.println("erika " + entidad.toString());
         //methodo para devolver una persona por ID
         // o puedes guardar directamente ID
        // Ventas ventas = new Ventas();
